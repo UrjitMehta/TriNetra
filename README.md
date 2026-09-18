@@ -173,13 +173,18 @@ The training pipeline performs:
 
 ## Usage
 
-1. **Install dependencies:**
+1. **Install all/core dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-2. **Pretrained Model:**
+    OR
+   ```bash
+   pip install -r core_req.txt
+   ```
+
+3. **Pretrained Model:**
 
     - A pretrained version of the proposed **TriNetra** model will be made available on Hugging Face.
 
@@ -193,7 +198,7 @@ The training pipeline performs:
 
         The **TriNetra** architecture can be initialized from `src/model.py` and fine-tuned or trained on a custom dataset. Configure the required dataset and output paths in `src/imports.py` before training.
 
-3. **Dataset:**
+4. **Dataset:**
 
     - Prepare the dataset according to the directory structure expected by the data loader:
 
@@ -212,7 +217,7 @@ The training pipeline performs:
         4. [NeurIPS 2022 Cell Segmentation Challenge dataset](https://neurips22-cellseg.grand-challenge.org/dataset/)
        
 
-4. **Procedure:**
+5. **Procedure:**
 
     - Import modules
     - Prepare datasets
