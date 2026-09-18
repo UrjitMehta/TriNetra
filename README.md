@@ -20,43 +20,31 @@ The code is organized into separate components for clarity, reusability, and rep
 The `src/` directory contains the main components:
 
     imports.py
-        Centralized imports and global configurations, including
-        dataset paths, output directories, and runtime settings.
+        Centralized imports and global configurations, including dataset paths, output directories, and runtime settings.
 
     dataloader.py
-        Dataset utilities for pairing images and labels, loading
-        microscopy images, preprocessing masks, and integrating
-        structural prior guidance.
+        Dataset utilities for pairing images and labels, loading microscopy images, preprocessing masks, and integrating structural prior guidance.
 
      augmentation.py
-        Augmentation-based Curriculum Learning that adjusts the
-        augmentation ratio progressively across training epochs.
+        Augmentation-based Curriculum Learning that adjusts the augmentation ratio progressively across training epochs.
 
     model.py
-        TriNetra architecture based on SwinUNet, including
-        transformer blocks, patch operations, skip connections,
-        structural piors integration, and hierarchical boundary
-        representations.
+        TriNetra architecture based on SwinUNet, including transformer blocks, patch operations, skip connections, structural piors integration, and hierarchical boundary representations.
 
     metrics.py
-        Training losses and evaluation metrics, including BCE + Dice,
-        Dice coefficient, F1 score, Average Precision, and AFNR.
+        Training losses and evaluation metrics, including BCE + Dice, Dice coefficient, F1 score, Average Precision, and AFNR.
 
     structural_prior_and_boundary_generation.py
         Generates structural prior maps from phase-contrast microscopy images.
         
     callbacks_checks.py
-        Custom callbacks for training monitoring, checkpointing,
-        prediction visualization, sanity checks, curriculum learning,
-        and COCO-based evaluation.
+        Custom callbacks for training monitoring, checkpointing, prediction visualization, sanity checks, curriculum learning, and COCO-based evaluation.
 
     test.py
-        Test-time evaluation, prediction generation, visualization,
-        and COCO-style object detection and segmentation metrics.
+        Test-time evaluation, prediction generation, visualization, and COCO-style object detection and segmentation metrics.
 
     train.py
-        Training pipeline using k-fold cross-validation, model
-        training, validation, metric tracking, and result(aggregated) generation.
+        Training pipeline using k-fold cross-validation, model training, validation, metric tracking, and result(aggregated) generation.
 
   Other files in the root directory:
 
