@@ -65,7 +65,7 @@ TriNetra is designed around three complementary components:
 
 <img width="13089" height="7157" alt="CL" src="https://github.com/user-attachments/assets/1c11ce30-c9e3-4dfe-b370-d99c581ad991" />
 
-#### The core segmentation network uses a hierarchical Swin Transformer-based encoder-decoder architecture[GPiSeT](https://github.com/UrjitMehta/GPiSeT.git):
+#### The core segmentation network uses a hierarchical Swin Transformer-based encoder-decoder architecture (Base Arch: [GPiSeT](https://github.com/UrjitMehta/GPiSeT.git)):
 
 <img width="21741" height="11243" alt="CL_Model" src="https://github.com/user-attachments/assets/42599b9f-fe64-4c6c-a6e7-d9c4641bb0f0" />
 
