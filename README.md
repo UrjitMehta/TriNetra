@@ -246,7 +246,7 @@ If you use this repository or find the work helpful, please cite the paper:
 ```bibtex
 @inproceedings{um2026trinetra,
   title={TriNetra: A Structurally Informed Transformer with Augmentation-Driven Curriculum Learning for Cell Segmentation},
-  author={Mehta, Urjit and Bhalodiya, Jayendra M.},
+  author={Mehta, Urjit and Bhalodiya, Jayendra},
   booktitle={14th International Conference on Big Data Analytics and Artificial Intelligence (BDA2026)},
   year={2026}
   url={https://github.com/UrjitMehta/TriNetra}
