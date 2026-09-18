@@ -50,7 +50,7 @@ The `src/` directory contains the main components:
 
     .gitignore – To ignore checkpoints, outputs, and logs.
     README.md – This documentation file.
-    download_model.py – Download the pretrained GPiSeT models from Hugging Face.
+    download_model.py – Download the pretrained TriNetra model from Hugging Face.
 
 
 ---
