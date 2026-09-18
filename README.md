@@ -169,7 +169,8 @@ The training pipeline performs:
 
     Save fold-specific models and outputs
     
--- 
+---
+
 ## Usage
 
 1. **Install dependencies:**
