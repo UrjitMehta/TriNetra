@@ -1,6 +1,6 @@
 # TriNetra: A Structurally Informed Transformer with Augmentation-Driven Curriculum Learning for Cell Segmentation
 
-This repository contains a modular implementation of **TriNetra**, a transfomer framework for cell segmentation in microscopy images.
+This repository contains a modular implementation of **Tri(Three)** **Netra(Vision)**, a transfomer framework for cell segmentation in microscopy images.
 
 TriNetra integrates three complementary components:
 
