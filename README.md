@@ -249,6 +249,7 @@ If you use this repository or find the work helpful, please cite the paper:
   author={Mehta, Urjit and Bhalodiya, Jayendra M.},
   booktitle={14th International Conference on Big Data Analytics and Artificial Intelligence (BDA2026)},
   year={2026}
+  url={https://github.com/UrjitMehta/TriNetra}
 }
 ```
 
