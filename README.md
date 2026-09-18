@@ -61,14 +61,14 @@ TriNetra is designed around three complementary components:
 
 ### 1. Transformer Backbone with Augmentation-based Curriculum Learning
 
-Augmentation-based Curriculum Learning(ACL) Approach:
-<img width="21741" height="11243" alt="CL_Model" src="https://github.com/user-attachments/assets/5d0e2e3c-83bc-4252-85cc-c8416dd42ae7" />
+#### Augmentation-based Curriculum Learning(ACL) Approach:
+
+<img width="13089" height="7157" alt="CL" src="https://github.com/user-attachments/assets/1c11ce30-c9e3-4dfe-b370-d99c581ad991" />
 
 The core segmentation network uses a hierarchical Swin Transformer-based encoder-decoder architecture.
 
 The encoder progressively captures contextual information at multiple spatial resolutions, while the decoder reconstructs high-resolution segmentation maps through patch expansion and skip connections. Augmentation-based Curriculum Learning (ACL) progressively adjusts the augmentation ratio across training epochs to increase training difficulty as learning progresses.
 
-<!-- Add SwinUNet / backbone architecture image here -->
 
 ---
 
