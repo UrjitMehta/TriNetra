@@ -100,7 +100,7 @@ This allows the model to preserve and refine boundary information throughout the
 
 ---
 
-### Results for different Cellular Growth
+### Qualitative Results By TriNetra
 
 <img width="12576" height="6754" alt="LinkedIN POST" src="https://github.com/user-attachments/assets/17a58d9e-4bf9-40a8-935b-abbd1fdc0fdd" />
 
