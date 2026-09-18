@@ -6,7 +6,7 @@ TriNetra integrates three complementary components:
 
 - **Augmentation-based Curriculum Learning Approach** to progressively increase augmentation strength during training.
 - **Structural prior guidance** to provide additional spatial information.
-- **Hierarchical boundary representations** to enhance boundary-sensitive feature learning and improve cell delineation under different cellular growth stages.
+- **Hierarchical boundary representations** to enhance boundary-sensitive feature learning and improve cell delineation across different cellular growth stages.
 
 The code is organized into separate components for clarity, reusability, and reproducibility, allowing you to either:
 
