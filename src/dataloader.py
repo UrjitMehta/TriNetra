@@ -1,6 +1,6 @@
 from imports import *
 
-from augmentation import apply_random_augmentation, current_augmentation_strength
+from augmentations import apply_random_augmentation, current_augmentation_strength
 from structural_prior_and_boundary_generation import generate_guiding_map
 
 # =========================
