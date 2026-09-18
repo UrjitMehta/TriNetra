@@ -65,7 +65,9 @@ TriNetra is designed around three complementary components:
 
 <img width="13089" height="7157" alt="CL" src="https://github.com/user-attachments/assets/1c11ce30-c9e3-4dfe-b370-d99c581ad991" />
 
-The core segmentation network uses a hierarchical Swin Transformer-based encoder-decoder architecture.
+#### The core segmentation network uses a hierarchical Swin Transformer-based encoder-decoder architecture:
+
+<img width="21741" height="11243" alt="CL_Model" src="https://github.com/user-attachments/assets/42599b9f-fe64-4c6c-a6e7-d9c4641bb0f0" />
 
 The encoder progressively captures contextual information at multiple spatial resolutions, while the decoder reconstructs high-resolution segmentation maps through patch expansion and skip connections. Augmentation-based Curriculum Learning (ACL) progressively adjusts the augmentation ratio across training epochs to increase training difficulty as learning progresses.
 
