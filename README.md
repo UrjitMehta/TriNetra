@@ -192,7 +192,7 @@ The training pipeline performs:
 
     - **Download directly from Hugging Face:**
 
-        The pretrained `TriNetra.keras` model can be downloaded directly from the [urjit006/TriNetra](https://huggingface.co/urjit006/TriNetra) and used according to your requirements.
+        The pretrained `TriNetra.keras` model can be downloaded directly from the [Hugging Face Model Repository](https://huggingface.co/urjit006/TriNetra) and used according to your requirements.
 
     - **Fine-tune from the TriNetra architecture:**
 
