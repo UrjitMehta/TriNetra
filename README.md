@@ -1,10 +1,5 @@
 # TriNetra: A Structurally Informed Transformer with Augmentation-Driven Curriculum Learning for Cell Segmentation
 
-The Overall Architecture:
-
-<!-- Add overall TriNetra architecture image here -->
-
-
 This repository contains a modular implementation of **TriNetra**, a transfomer framework for cell segmentation in microscopy images.
 
 TriNetra integrates three complementary components:
@@ -76,7 +71,10 @@ The `src/` directory contains the main components:
 
 TriNetra is designed around three complementary components:
 
-### 1. Transformer Backbone with ACL
+### 1. Transformer Backbone with Augmentation-based Curriculum Learning
+
+Augmentation-based Curriculum Learning(ACL) Approach:
+<img width="21741" height="11243" alt="CL_Model" src="https://github.com/user-attachments/assets/5d0e2e3c-83bc-4252-85cc-c8416dd42ae7" />
 
 The core segmentation network uses a hierarchical Swin Transformer-based encoder-decoder architecture.
 
@@ -109,6 +107,10 @@ TriNetra incorporates **hierarchical boundary representations** within the segme
 Rather than relying only on the final segmentation output, boundary-related information is integrated across multiple feature levels of the network.
 
 This allows the model to preserve and refine boundary information throughout the encoder-decoder hierarchy, which is particularly relevant for densely packed and adjacent cells where accurate delineation is required.
+
+Results for different Cellular Growth:
+
+<img width="12576" height="6754" alt="LinkedIN POST" src="https://github.com/user-attachments/assets/17a58d9e-4bf9-40a8-935b-abbd1fdc0fdd" />
 
 ---
 
