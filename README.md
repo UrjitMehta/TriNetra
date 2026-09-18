@@ -141,36 +141,6 @@ Structural prior guidance can be enabled using:
 
 ---
 
-## Structural Prior Generation
-
-TriNetra uses a structural prior representation as an additional input to the segmentation model.
-
-The structural prior generation pipeline includes image preprocessing and structural information extraction before the resulting representation is integrated with the original microscopy image.
-
-The generated guidance map is concatenated with the RGB input:
-
-    RGB Image + Structural Prior
-
-resulting in a 4-channel input to TriNetra.
-
-The structural prior generation implementation is located in:
-
-    structural_prior_and_boundary_generation.py
-
----
-
-## Hierarchical Boundary Representations with Conditioned Attention
-
-It incorporates hierarchical boundary representations across multiple feature resolutions within the SwinUNet architecture.
-
-Boundary-sensitive information is integrated into the feature hierarchy through conditioned attention, allowing the network to adapt its feature representations based on boundary information at different spatial scales.
-
-This enables the model to capture both coarse structural boundaries and fine-grained cellular boundaries throughout the encoder-decoder pathway.
-
-    src/model.py
-
----
-
 ## Training
 
 TriNetra uses **k-fold cross-validation** for model training and evaluation.
@@ -267,3 +237,5 @@ Each module is standalone; you can import functions/classes as needed:
 from dataloader import get_image_label_pairs, ImageLabelGenerator
 from model import swin_unet
 from metrics import bce_dice_loss, dice_coef, F1Score, ap_metric, AFNR
+
+
