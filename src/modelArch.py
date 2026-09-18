@@ -1,6 +1,6 @@
 from imports import *
 
-#=========================== Transformer(SwinUnet) + Conditioned Attention + Boundary + Skip ===========================
+#=========================== Transformer(SwinUnet) + Conditioned Attention + Boundary + Skip(GPiSeT Base Model Arch) ===========================
 # ==========================================================
 # Utility Layers
 # ==========================================================
