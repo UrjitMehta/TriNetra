@@ -237,5 +237,18 @@ Each module is standalone; you can import functions/classes as needed:
 from dataloader import get_image_label_pairs, ImageLabelGenerator
 from model import swin_unet
 from metrics import bce_dice_loss, dice_coef, F1Score, ap_metric, AFNR
+```
+---
+## Citation
 
+If you use this repository or find the work helpful, please cite the paper:
+
+```bibtex
+@inproceedings{um2026trinetra,
+  title={TriNetra: A Structurally Informed Transformer with Augmentation-Driven Curriculum Learning for Cell Segmentation},
+  author={Mehta, Urjit and Bhalodiya, Jayendra M.},
+  booktitle={14th International Conference on Big Data Analytics and Artificial Intelligence (BDA2026)},
+  year={2026}
+}
+```
 
