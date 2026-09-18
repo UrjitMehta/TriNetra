@@ -98,7 +98,8 @@ Rather than relying only on the final segmentation output, boundary-related info
 
 This allows the model to preserve and refine boundary information throughout the encoder-decoder hierarchy, which is particularly relevant for densely packed and adjacent cells where accurate delineation is required.
 
-Results for different Cellular Growth:
+--
+### Results for different Cellular Growth:
 
 <img width="12576" height="6754" alt="LinkedIN POST" src="https://github.com/user-attachments/assets/17a58d9e-4bf9-40a8-935b-abbd1fdc0fdd" />
 
